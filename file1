@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import requests,response
 
 app = Flask(__name__)
-app.secret_key = "supersecretkey"
+app.secret_key = "secretkeys"
 
 # Backend API
 
